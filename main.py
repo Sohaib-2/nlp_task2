@@ -24,8 +24,8 @@ def predict_label(text):
 def explain_label(label):
     # Define label explanations
     label_explanations = {
-        0: "The text is likely to be positive.",
-        1: "The text is likely to be negative.",
+        1: "The text is likely to be positive.",
+        0: "The text is likely to be negative.",
     }
 
     # Return the explanation for the predicted label
